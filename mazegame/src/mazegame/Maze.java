@@ -17,7 +17,7 @@ package mazegame;
 					{'#', ' ', '#', ' ', ' ', ' ', ' ', ' ', ' ', '#'},
 					{'#', '#', '#', '#', '#', '#', '#', '#', '#', '#'},};
 
-			// Get the start location (x,y) and try to solve the maze
+			// Get the start location (x,y) and try to solve the mazee
 			public void solve(int x, int y) {
 				if (step(x,y)) {
 					maze[x][y] = 'S';
